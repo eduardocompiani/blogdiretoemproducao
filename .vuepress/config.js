@@ -8,7 +8,8 @@ module.exports = {
           { text: 'GitHub', link: 'https://github.com/eduardocompiani' },
         ],
         sidebar: [
-            ['/PHPCodeSniffer/', 'Usando PHP Code Sniffer']
+            ['/PHPCodeSniffer/', 'Usando PHP Code Sniffer'],
+            ['/Gulp/', 'Escrevendo JS novo em sistema legado']
         ],
         lastUpdated: true
     }
