@@ -49,17 +49,11 @@
 
         ## Exemplo de comando
         php caminho\para\phpcs.phar --standard=psr2 --report=summary caminho\para\pasta\ou\arquivo
-
-        ## Comando rodando na include/audit
-        php F:\#05-phpcs\phpcs.phar --standard=PSR2 --report=summary C:\Users\eduardo.compiani\Desktop\SoftExpertExcellenceSuiteV2\System\web\include\audit\
     
     Para listar a quantidade de erros por definição de erro, podemos definir o parâmetro **report=source**, com ele também podemos saber quantos arquivos serão afetados pelo comando **PHPCBF**.
 
         ## Exemplo de comando
         php caminho\para\phpcs.phar --standard=psr2 --report=source caminho\para\pasta\ou\arquivo
-
-        ## Comando rodando na include/audit
-        php F:\#05-phpcs\phpcs.phar --standard=PSR2 --report=source C:\Users\eduardo.compiani\Desktop\SoftExpertExcellenceSuiteV2\System\web\include\audit\
 
 - ## Executando correção automática de erros
 
