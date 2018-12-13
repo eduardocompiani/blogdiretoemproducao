@@ -23,13 +23,15 @@ Vamos imaginar que temos um projeto que tenha a seguinte estrutura
 ```bash
 |-- minha-pagina-html
     |-- index.html
-    |-- js
-        |-- quadrado.js
-        |-- uma-feature
-            |-- minha-nova-classe.js
+    |-- src
+        |-- old-calculator.js
+        |-- old-calculator-min.js
+        |-- newJS
+            |-- new-calculator.js
+            |-- new-calculator-min.js
 ```
 
-Nessa estrutura temos o arquivo `quadrado.js` é um arquivo antigo de funcionando perfeitamente em todos os browsers e desenvolvemos uma classe no arquivo `minha-nova-classe.js`.
+Nessa estrutura temos o arquivo `old-calculator.js` é um arquivo antigo de funcionando perfeitamente em todos os browsers e desenvolvemos uma classe no arquivo `new-calculator.js`.
 
 Com isso em mãos, vamos criar o arquivo `package.json` utilizando o comando:
 
