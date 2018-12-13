@@ -60,4 +60,4 @@ Tá, mas o que cada um desses cara fazem?
 
 ## Exemplo funcionando
 
-O exemplo funcionando, você pode encontrar no neste [Link](https://github.com/eduardocompiani/blogdiretoemproducao/examples/Gulp)
+O exemplo funcionando, você pode encontrar no neste [Link](https://github.com/eduardocompiani/blogdiretoemproducao/tree/master/examples/Gulp)
