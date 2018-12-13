@@ -40,7 +40,7 @@ Com isso em mãos, vamos criar o arquivo `package.json` utilizando o comando:
 Agora que temos nosso package.json criado, podemos iniciar a instalação das dependências utilziando o seguinte comando:
 
 ```bash
-    npm install --save-dev gulp gulp-babel @babel/core @babel/preset-env gulp-rename gulp-uglify del
+    npm install --save-dev gulp gulp-babel @babel/core @babel/preset-env gulp-rename gulp-uglify del gulp-sourcemaps
 ```
 
 Tá, mas o que cada um desses cara fazem?
@@ -55,3 +55,9 @@ Tá, mas o que cada um desses cara fazem?
     - Dependência que fará a compressão do nosso arquivo, fazendo com que ele fique sem comentários e reduzindo o tamanho do arquivo
  - del
     - Dependência que excluirá os arquivos minificados para nós, para que possamos gerar novos arquivos atualizados
+ - gulp-sourcemaps
+    - Dependência que fará o mapeamento do arquivo minificado para um arquivo "normal", assim caso tenha que debugar algo em produção, você pode ver o arquivo como se estivesse rodando o arquivo descompactado :)
+
+## Exemplo funcionando
+
+O exemplo funcionando, você pode encontrar no neste [Link](https://github.com/eduardocompiani/blogdiretoemproducao/examples/Gulp)
