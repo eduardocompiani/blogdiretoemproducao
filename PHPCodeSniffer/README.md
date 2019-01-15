@@ -28,7 +28,21 @@
 
     + ## Windows 10
 
-        Add some text here
+        Para adicionar o php nas variáveis de ambiente, abra o **Painel de Controle** e clique em **Sistema**:
+        <br>![Painel de controle do windows 10](../assets/PHPCodeSniffer/painel-de-controle-windows-10.png)
+
+        Clique em **Configurações avançadas do sistema**, em seguida, clique em **Variáveis de Ambiente**:
+        <br>![Abrindo variáveis de ambiente do windows 10](../assets/PHPCodeSniffer/abrindo-variaveis-de-ambiente-windows-10.png)
+
+        No primeiro quadro, selecione **PATH** e clique em **Editar...**:
+        <br>![Editando PATH do usuário no windows 10](../assets/PHPCodeSniffer/editando-path-do-usuario-no-windows-10.png)
+
+        Clique em **Novo** e escreva o caminho onde o PHP foi extraído:
+        <br>![Apontando caminho para pasta do php no windows 10](../assets/PHPCodeSniffer/apontando-caminho-para-pasta-do-php-no-windows-10.png)
+
+        Após isso, Clique em **OK** para confirmar todas as alterações.
+        <br> Para confirmar que o PHP foi instalado com sucesso, abra o console e escreva **php -v** e deverá aparecer a sua versão do php instalada:
+        <br>![Acessando o php pelo console](../assets/PHPCodeSniffer/php-instalado-com-sucesso-no-windows-10.png)
 
 - ## Baixando o PHP Code Sniffer
 
@@ -56,13 +70,5 @@
         php caminho\para\phpcs.phar --standard=psr2 --report=source caminho\para\pasta\ou\arquivo
 
 - ## Executando correção automática de erros
-
-    Add some text here
-
-- ## Integrando o PHPCS no Sublime
-
-    Add some text here
-
-- ## Integrando o PHPCS no VS Code
 
     Add some text here
